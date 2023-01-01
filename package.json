@@ -1,0 +1,20 @@
+{
+  "name": "action-tunnel-server",
+  "version": "1.0.0",
+  "description": "Distribute action commands from clients to other clients, which are not publicly accessable",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byWulf/action-tunnel-server.git"
+  },
+  "author": "byWulf <wulf1337@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byWulf/action-tunnel-server/issues"
+  },
+  "homepage": "https://github.com/byWulf/action-tunnel-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "socket.io": "^4.5.4"
+  }
+}
