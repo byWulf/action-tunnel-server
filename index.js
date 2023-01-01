@@ -31,9 +31,10 @@ io.on('connection', (socket) => {
 
     socket.emit('authenticated');
 
-    socket.on('action', (name, payload) => {
+    socket.on('action', (name, payload, callback) => {
         console.log('Distributing action ' + name + ' from ' + socket.id);
         socket.broadcast.emit('action', name, payload);
+        callback(true);
     });
 });
 

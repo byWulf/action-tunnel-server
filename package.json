@@ -1,6 +1,6 @@
 {
   "name": "action-tunnel-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Distribute action commands from clients to other clients, which are not publicly accessable",
   "main": "index.js",
   "repository": {
